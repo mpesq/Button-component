@@ -7,56 +7,124 @@
   font-size: 24px;
   line-height: 36px;
   color: #4F4F4F;
+  position: absolute;
+  width: 93px;
+  height: 36px;
+  left: 320px;
+  top: 53px;
 }
+.btn-div {
+  position: absolute;
+  left: 319px;
+  top: 141px;
+}
+
+.outline-div {
+  position: absolute;
+  left: 319px;
+  top: 246px;
+}
+
+.text-div {
+  position: absolute;
+  left: 319px;
+  top: 357px;
+}
+
+.disshadow-div {
+  position: absolute;
+  left: 319px;
+  top: 453px;
+}
+
+.disabled-div {
+  position: absolute;
+  left: 319px;
+  top: 558px;
+}
+
+.disabled-text-div {
+  position: absolute;
+  left: 558px;
+  top: 558px;
+}
+
+.start-icon-div {
+  position: absolute;
+  left: 319px;
+  top: 663px;
+}
+
+.end-icon-div {
+  position: absolute;
+  left: 651px;
+  top: 663px;
+}
+
+.sm-div {
+  position: absolute;
+  left: 319px;
+  top: 773px;
+}
+
+.md-div {
+  position: absolute;
+  left: 523px;
+  top: 771px;
+}
+
+.lg-div {
+  position: absolute;
+  left: 731px;
+  top: 768px;
+}
+
 .default-div {
   position: absolute;
   left: 319px;
-  top: 117px;
+  top: 879px;
 }
-.text-title-btn {
 
-  width: 60px;
+.primary-div {
+  position: absolute;
+  left: 523px;
+  top: 879px;
+}
+
+.secondary-div {
+  position: absolute;
+  left: 731px;
+  top: 879px;
+}
+
+.danger-div {
+  position: absolute;
+  left: 971px;
+  top: 879px;
+}
+
+.text-title-btn {
+  width: 190px;
   height: 12px;
   font-family: 'Ubuntu Mono', monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-
   color: #333333;
-
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signature {
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 322px;
+  top: 1118px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #A9A9A9;
 }
